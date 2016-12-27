@@ -1,0 +1,9 @@
+{
+    "type": "sftp",
+    "host": "45.55.131.49",
+    "username": "root",
+    "port": 22,
+    "remotePath": "/var/www/html/wp-content/plugins/pewin-payments",
+    "sshKeyFile": "~/.ssh/id_rsa",
+    "uploadOnSave": true
+}

@@ -1,0 +1,21 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.payment-errors {
+    background: red;
+    display: block;
+    padding: .5em 1em;
+    color: white;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.payment-errors:empty {
+    display: none;
+}
+
+.hide {
+    display: none;
+}

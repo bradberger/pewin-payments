@@ -1,0 +1,18 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.pewin-payments-admin-form form > div {
+    margin: 16px 0;
+}
+
+.pewin-payments-admin-form p.submit {
+    text-align: right;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.pewin-payments-admin-form .postbox {
+    margin-right: 16px;
+}
