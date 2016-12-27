@@ -27,7 +27,7 @@ $_REQUEST['member'] = isset($_REQUEST['member']) ? $_REQUEST['member'] : 'john m
 
 if (isset($_POST['token'])) {
 
-    foreach(['fee', 'event', 'member', 'token', 'currency'] as $k ) {
+    foreach(array('fee', 'event', 'member', 'token', 'currency') as $k ) {
         if (empty($_POST[$k])) {
             $error = sprintf('The %s field is missing', $k);
             break;
@@ -166,7 +166,6 @@ if (redirectURL) {
             <input type="text" size="4" data-stripe="cvc">
         </label>
     </div>
-
 
     <input type="hidden" name="event" value="<?php echo $_REQUEST['event'] ?>">
     <input type="hidden" name="member" value="<?php echo $_REQUEST['member'] ?>">
