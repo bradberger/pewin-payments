@@ -19,3 +19,58 @@
 .hide {
     display: none;
 }
+
+/** success container */
+.payment-form.success {
+    max-width: 100%;
+    width: 360px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+/** form container */
+#payment-form {
+    max-width: 100%;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#payment-form label {
+    margin-top: 6px;
+}
+
+#payment-form fieldset {
+    margin: 16px 0;
+    padding-bottom: 24px;
+}
+
+#payment-form .vc_row {
+    margin: 12px -15px;
+}
+
+#payment-form .vc_btn.vc_btn-primary {
+    background: #085882;
+    border-radius: 0;
+}
+
+#payment-form .vc_btn.vc_btn-primary:hover {
+    background: #169;
+}
+
+#payment-form .vc_btn.vc_btn-block {
+    display: block;
+    width: 100%;
+}
+
+#payment-form .text-center {
+    text-align: center;
+}
+
+#payment-form legend {
+    color: #555;
+    font-size: 1.2em;
+}
+
+#payment-form .text-right {
+    text-align: right;
+}

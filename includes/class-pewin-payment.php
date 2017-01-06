@@ -13,6 +13,7 @@ class Pewin_Payment {
     public $fee;
     public $token;
     public $charged;
+    public $email;
 
     static $table = 'pewin_payments';
 
@@ -77,6 +78,7 @@ class Pewin_Payment {
                 "source" => $this->token,
                 "description" => sprintf("Charge to %s for event %s", $this->member, $this->event),
                 "statement_descriptor" => substr(sprintf("Charge for %s", $this->event), 0, 22),
+                "receipt_email" => $this->email,
                 "metadata" => array (
                     "member" => $this->member,
                     "event" => $this->event,
